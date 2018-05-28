@@ -1,0 +1,54 @@
+/* pages/question/question.wxss */
+.questionContainer
+{
+  display: flex;
+  flex-direction: column;
+  height: 144rpx;
+  padding-top: 120rpx;
+  padding-left: 72rpx;
+  padding-right: 72rpx;
+}
+.question{
+  text-indent: 0px;
+  font-size: 18px;
+}
+.answerContainer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 72rpx;
+  height: 100%;
+  padding: 48rpx;
+}
+.answer{
+  size: default;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 38rpx;
+  line-height: 48rpx;
+  background-color: rgb(248, 248, 248);
+  opacity: 0.8;
+  color: #000;
+  padding: 15px;
+  padding-left: 24rpx;
+  padding-right: 0px;
+  border: 2rpx solid rgb(224, 224, 224);
+  border-radius: 12rpx;
+
+}
+.button-hover {
+  background-color: #6CA6CD;
+}
+.hidden{
+  visibility: hidden;
+}
+.finish{
+  height: 95rpx;
+  width: 238rpx;
+  font-size: 41rpx;
+  line-height: 226rpx;
+  margin-top: 24rpx;
+}
+.isClick{
+  background-color: #6CA6CD;
+}

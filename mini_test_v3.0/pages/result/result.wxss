@@ -1,0 +1,20 @@
+/* pages/result/result.wxss */
+.resultContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120rpx;
+}
+text{
+  font-size: 43rpx;
+  text-align: center;
+}
+.button-hover {
+  background-color: #6CA6CD;
+}
+.btn_restart{
+  width: 238rpx;
+  height: 96rpx;
+  font-size: 41rpx;
+  margin-top: 48rpx;
+}

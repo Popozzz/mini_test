@@ -1,0 +1,29 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 190rpx;
+  width: 100%;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.button-hover {
+  background-color: #6CA6CD;
+}
+.btn_begin{
+  width: 238rpx;
+  height: 119rpx;
+  font-size: 41rpx;
+
+}
+.usermotto {
+  margin-top: 190rpx;
+  font-size: 41rpx;
+}

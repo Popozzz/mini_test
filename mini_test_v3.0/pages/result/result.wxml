@@ -1,0 +1,8 @@
+<!--pages/result/result.wxml-->
+<view class='resultContainer'>
+  <text>{{testTip}}</text>
+  <text>\nA： {{A}}个\nB： {{B}}个\nC： {{C}}个\n\n</text>
+  <text>{{result}}</text>
+  <button class='btn_restart' bindtap='restart'>{{btn_restart_text}}</button>
+</view>
+

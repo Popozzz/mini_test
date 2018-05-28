@@ -1,0 +1,10 @@
+<!--pages/question/question.wxml-->
+<view class='questionContainer'>
+  <text class='question'>{{question}}</text>
+</view>
+<view class='answerContainer'>
+<text class="answer {{oneIsClick}}"  selectable='false' id='one' bindtap='next'>{{one}}</text> 
+<text class="answer {{twoIsClick}}" selectable='false' id='two' bindtap='next'>{{two}}</text>
+<text class="answer {{threeIsClick}}" selectable='false' id='three' bindtap='next'>{{three}}</text>
+</view>
+<button class='finish {{hidden}}' bindtap='done'>{{button_text}}</button>
